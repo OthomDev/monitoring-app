@@ -1,0 +1,9 @@
+
+
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/my-key
+
+
+
+to ssh to the ec2:
+ssh -i ~/.ssh/id_rsa ubuntu@<EC2_PUBLIC_IP>
+ssh -i ~/.ssh/id_rsa ubuntu@<id>
